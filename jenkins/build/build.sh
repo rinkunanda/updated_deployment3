@@ -1,9 +1,9 @@
 #!/bin/bash
 
-cd ~/project/maven-job/target/*.jar ~/project/
+cd /tmp/project/maven-job/target/*.jar /tmp/project/
 echo "************************"
 echo "***Build Docker image***"
 echo "************************"
 
-cd ~/project
+cd /tmp/project
 docker-compose build
