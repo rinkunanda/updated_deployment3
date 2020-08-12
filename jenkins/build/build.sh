@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp -r /tmp/project/maven-job/target/*.jar /tmp/project/
+sudo cp -r /tmp/project/maven-job/target/*.jar /tmp/project/
 echo "************************"
 echo "***Build Docker image***"
 echo "************************"
