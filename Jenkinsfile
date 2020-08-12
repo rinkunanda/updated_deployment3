@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh ./jenkins/build/test.sh mvn test
+                sh 'echo Test'
             }
         }
         stage('Push') {
