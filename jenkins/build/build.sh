@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /tmp/project/maven-job/target/*.jar /tmp/project/
+cp -r /tmp/project/maven-job/target/*.jar /tmp/project/
 echo "************************"
 echo "***Build Docker image***"
 echo "************************"
